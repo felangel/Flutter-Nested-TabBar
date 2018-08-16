@@ -27,7 +27,7 @@ class HomePage extends StatelessWidget {
             children: [
               TabBar(tabs: [Tab(text: 'Tab1'), Tab(text: 'Tab2')]),
               Container(
-                  height: 300.0, // TODO: How to not required static height
+                  height: 300.0, // TODO: How to not require static height
                   child: TabBarView(
                     children: [
                       Center(child: Text('Content1')),
